@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background: linear-gradient(to bottom right,navy, #421b66dd);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 0;
+    position: -webkit-sticky; 
+    top: 0;
+    text-align: center;
+}
