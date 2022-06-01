@@ -19,3 +19,11 @@ header {
     top: 0;
     text-align: center;
 }
+
+button {
+    background: rgba(0, 0, 128, 0.833);
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+}
