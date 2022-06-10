@@ -38,8 +38,9 @@ function getWeather(cityName) {
 
 // get 5 day forcaset
 var getForecast = function (value1, value2) {
-    var appId = "f3957d81c139c563514aee1e161a4e4a"
-    apiURL = "https://api.openweathermap.org/data/3.0/onecall?lat=" + value1 + "&lon=" + value2 +"&appid=" + appId;
+    var appId = "4c216875996a459c79598204a84ef721"
+    apiURL = "https://api.openweathermap.org/data/2.5/onecall?lat=" + value1 + "&lon=" + value2 +"&APPID=" + appId;
+    https://api.openweathermap.org/data/3.0/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}
 
     fetch(apiURL).then(function (response) {
         if (response.ok) {
