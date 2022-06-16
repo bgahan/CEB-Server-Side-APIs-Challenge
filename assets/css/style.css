@@ -27,3 +27,7 @@ button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 8px;
 }
+
+.search {
+    display: flex;
+}
