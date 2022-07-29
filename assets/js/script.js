@@ -16,7 +16,7 @@ searchBtn.addEventListener('click', function (e) {
 // create function to call weather api based on search input
 function getWeather(cityName) {
     var appId = "4c216875996a459c79598204a84ef721"
-    var apiURL = "http://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&APPID=" + appId + "&units=imperial";
+    var apiURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&APPID=" + appId + "&units=imperial";
 
     fetch(apiURL).then(function (response) {
         if (response.ok) {
@@ -71,7 +71,7 @@ var getForecast = function (value1, value2) {
 
 var fiveDayContainer = document.getElementById('forecast-weather')
 
-var iconUrl = 'http://openweathermap.org/img/wn/'
+var iconUrl = 'https://openweathermap.org/img/wn/'
 
 // display weather data in html
 function displayWeather(data) {
