@@ -20,14 +20,69 @@ header {
     text-align: center;
 }
 
+.search {
+    width: 20%;
+    margin: 10px;
+
+}
+
 button {
     background: rgba(0, 0, 128, 0.833);
     font-size: 18px;
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 8px;
+    width: 100%;
+    margin: 5px;
 }
 
-.search {
+
+main {
     display: flex;
+    margin: 10px;
+}
+
+#current-weather {
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+#forecast-weather {
+    display: flex;
+    margin-top: 10px;
+}
+
+#forecast-weather div {
+    border-style: solid;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(39, 39, 112);
+    color: whitesmoke;
+}
+
+#forecast-weather p {
+    padding: 5px;
+}
+
+#date {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.favorable {
+    background-color: green;
+    color: whitesmoke;
+    width: 20%;
+}
+
+.moderate {
+    background-color: yellow;
+    width: 20%;
+}
+
+.severe {
+    background-color: red;
+    color: whitesmoke;
+    width: 20%;
 }
