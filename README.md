@@ -19,5 +19,7 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
 ## Website Screenshot
+<img src ="./assets/images/website-screenshot.png">
 
 ## Website URL
+https://bgahan.github.io/CEB-Server-Side-APIs-Challenge/
